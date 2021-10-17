@@ -30,6 +30,7 @@ const createSlide = () => {
   slideIndex++;
 
   //setting elements  className
+  imgElement.className = "slider-img";
   slide.className = "slider";
   content.className = "slider-content";
   h1.className = "movie-title";
